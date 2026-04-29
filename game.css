@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin: 0;
+    background-color: yellow;
+}
+h1{
+text-align: center;
+color:red;
+text-transform:capitalize ;
+text-decoration:underline ;
+margin: 10px 0px 15px 0px ;
+}
+.game{
+    width: 60vh;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;justify-content: center;
+}
+.box{
+    width:20vmin ;
+    height: 20vmin;
+    max-height: 100px;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 246, 166);
+    color: RED;
+    font-size: 15vmin;
+}
+#msg{
+    text-align: center;
+    margin-top: 30px; 
+    font-size: x-large;
+    background-color: aqua;
+    color: rgb(234, 10, 219);
+    text-transform: capitalize;
+}
+#btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
