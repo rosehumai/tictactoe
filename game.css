@@ -11,9 +11,11 @@ text-decoration:underline ;
 margin: 10px 0px 15px 0px ;
 }
 .game{
-    width: 60vh;
+    width: 60vw;
     display: flex;
-    flex-wrap: wrap;justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 .box{
     width:20vmin ;
